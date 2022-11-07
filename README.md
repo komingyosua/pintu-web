@@ -16,4 +16,5 @@ Future Improvements:
 - If available, we can integrate with websocket to get latest price without refreshing (Pub Sub)
 - Implement of pagination (Infinite scroll)
 - Since webpack 5 has no nodejs polyfill, we could add NodeResolver to vite to have advantages to use a node function.
+- Migrate to micro-frontend to have an independent service and also can speed up build process and performance.
 - etc.
