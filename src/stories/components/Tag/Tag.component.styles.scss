@@ -1,0 +1,23 @@
+.ant-tag {
+  display: inline-flex;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 12px;
+  background: #dce9fe;
+  color: #0b50e2;
+  justify-content: center;
+  align-items: center;
+
+  & .anticon {
+    margin-right: 4px;
+    font-size: 18px;
+  }
+}
+
+.ant-tag-checkable:active {
+  background: #5898ff;
+  color: #fff;
+}
